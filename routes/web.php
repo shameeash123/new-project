@@ -17,10 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('myhome/',function (){
-    return view ('home');
+Route::get('fbpage/',function (){
+    return view ('fbpage');
 }) ;
 
-Route::get("profile/",function(){
-    return view ('profile');
-});
